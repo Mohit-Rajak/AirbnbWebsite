@@ -3,9 +3,7 @@
 <p align="center">
   <b style="color: blue;  ">Visitor count</b>
   <br>
-  <a style="" href="https://github.com/Mohit-rajak">
-  <img src="https://profile-counter.glitch.me/airbnb-project/count.svg" />
-  </a>
+  <a style="" href="https://github.com/Mohit-rajak"></a>
 </p>
 
 ---
@@ -93,8 +91,8 @@ Follow these steps to set up and run the project locally:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Mohit-Rajak/Airbnb_Project.git
-    cd Airbnb_Project
+    git clone https://github.com/Mohit-Rajak/AirbnbWebsite
+    cd AirbnbWebsite
     ```
 
 2.  **Install Dependencies:**
