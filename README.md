@@ -1,9 +1,4 @@
 # airbnb Full-Stack Web Application 🚀
-
-<p align="center">
-  <a style="" href="https://github.com/Mohit-rajak"></a>
-</p>
-
 ---
 
 <a style="" href="#"></a>
