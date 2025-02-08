@@ -1,0 +1,106 @@
+<style> 
+  .navbar .navbar-nav{
+     margin-right: 2rem;
+  }
+
+  .navbar .nav-link {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .container-fluid {
+    margin-left: 2rem;
+  }
+  .btn-search {
+    background-color: #fe424d;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 0.9rem 0 0.9rem;
+    margin-left: 1rem;
+  }
+  .btn-search:hover {
+    background-color: #fe424d;
+    color: #fff;
+  }
+
+  .btn-search i {
+    display: inline;
+    padding-right: 0.3rem;
+  }
+
+  .search-input{
+    border-radius: 25px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+  }
+
+  @media (min-width : 770px) and (max-width : 950px){
+    #responsive{
+      background-color: #fff !important;
+    }
+
+    .icon {
+      font-size: 1.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+    .navbar-brand {
+      font-size: 1.4rem !important;
+      position: relative;
+      right: 1rem;
+    }
+    .nav-link {
+      font-size: 1rem !important;
+      position: relative;
+      right: 1.2rem !important;
+    }
+    .box button {
+       display: none;
+    }
+    .box input {
+      width: 200px;
+      padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+      text-align: center;
+    }
+  
+  }
+
+</style>
+
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top" id="responsive">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"> <i class="fa-regular fa-compass icon"></i>airbnb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+      >
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/listings">Explore</a>
+        </div>
+        
+        <div class="navbar-nav ms-auto box">
+          <form class="d-flex" role="search">
+            <input 
+             class="form-control me-2 search-input"
+             type="search"
+            placeholder="Search destinations" 
+           
+           >
+            <button class="btn btn-search" type="submit">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>Search</button>
+          </form>
+        </div>
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="/listings/new">Airbnb your home</a>
+          <% if(!currUser){ %>
+            <a class="nav-link"href="/signup"> <b>Sign up</b></a>
+            <a class="nav-link" href="/login"><b>Log in</b></a>
+           <% } %>
+           <% if(currUser){ %>
+          <a class="nav-link" href="/logout"><b>Log out</b></a>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </nav>
+

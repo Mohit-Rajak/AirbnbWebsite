@@ -1,0 +1,43 @@
+<% layout("/layouts/boilerplate") %>
+
+<style>
+    .row .signup {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+    }
+</style>
+<div class="row">
+    <div class="col-6 offset-3">
+        <h1 class="col-6 offset-3 signup">SignUp on airbnb</h1>
+        <form action="/signup" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="username" class="form-lable">Username</label>
+                <input name="username"
+                   id="username"
+                   type="text"
+                   class="form-control"
+                   required/>
+                 <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-lable">Email</label>
+                <input name="email"
+                   id="email"
+                   type="email"
+                   class="form-control"
+                   required/>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-lable">Password</label>
+                 <input name="password"
+                   id="password"
+                   type="password"
+                   class="form-control"
+                   required/>
+            </div>
+         <button class="btn btn-success">SignUp</button>
+
+       </form>
+    </div>
+</div>
