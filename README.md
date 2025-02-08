@@ -1,6 +1,4 @@
-# airbnb Full-Stack Web Application 🚀
----
-
+# Airbnb Full-Stack Web Application 🚀
 <a style="" href="#"></a>
 
 ## Table of Contents
