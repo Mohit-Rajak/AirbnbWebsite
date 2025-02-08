@@ -1,8 +1,6 @@
 # airbnb Full-Stack Web Application 🚀
 
 <p align="center">
-  <b style="color: blue;  ">Visitor count</b>
-  <br>
   <a style="" href="https://github.com/Mohit-rajak"></a>
 </p>
 
