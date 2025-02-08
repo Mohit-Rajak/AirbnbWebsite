@@ -3,8 +3,6 @@
 
 <a style="" href="#"></a>
 
----
-
 ## Table of Contents
 
 -   [Project Overview](#project-overview)
