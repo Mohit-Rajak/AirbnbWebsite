@@ -1,4 +1,4 @@
-# Airbnb Full-Stack Web Application 🚀
+# Airbnb Full-Stack Website 🚀
 <a style="" href="#"></a>
 
 ## Table of Contents
@@ -8,11 +8,9 @@
 -   [Key Features](#key-features)
 -   [How to Install](#how-to-install)
 -   [Challenges & Solutions](#challenges--solutions)
--   [Special Thanks](#special-thanks)
 -   [Author](#author)
 -   [Project Link](#project-link)
 -   [Thank You](#thank-you)
--   [Ex- Image](#ex--image)
 
 ## Project Overview
 
